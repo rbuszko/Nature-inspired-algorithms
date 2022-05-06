@@ -5,7 +5,6 @@ from random import sample, randint
 from tabulate import tabulate
 import time
 import bee
-import genetic
 
 def generate_data(amount, max_weight, max_value):
     random_weights = [randint(1, max_weight) for i in range(amount)]  # sample(range(1, max_weight), amount)
